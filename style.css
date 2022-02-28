@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper{
+   width: 100vw;
+   height: 100vh;
+   background-color: #552645; 
+   color: #ad508e;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    width:100%;
+    text-align: center;
+    background-color: #55264588;
+    
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.brand span {
+    color: #E0B1D0;
+}
+
+.menu li{
+    list-style: none;
+    
+}
+
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu a{
+    color: #E0B1D0;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+
+.menu .active{
+    color: #E0B1D0;
+}
+
+.menu a:hover{
+    background-color: #35072531;
+    color: #E0B1D0;
+    transition: ease-in .4s;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    padding-top: 8em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.info-content{
+    padding-right: 2em;
+}
+
+.info-content p,
+.about-info p{
+    margin: 1em;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+   font-size: 3em;
+}
+
+span{
+    color: #E0B1D0;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.download-cv {
+    
+    padding: 10px 20px;
+    background-color: #E0B1D0;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(224, 177, 208, .69);
+}
+.download-cv:hover {
+    background-color: #ad508e;
+    box-shadow: none;
+}
+
+.main img {
+    width: 350px;
+    border: 4px dashed #E0B1D0;
+    height: 420px;
+    margin-left: 11em;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+
+}
+
+.about img{
+    width: 100%;
+    grid-column: 1/5;
+
+}
+
+.about-info{
+    grid-column: 5/9;
+    padding: 3em;
+
+}
+
+.about-info h2,
+.skills h2{
+    font-size: 2em;
+    color: #552645;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color:  #ad508e;
+    margin-top: 10px;
+    margin-bottom: 2em;
+}
+
+.about p {
+    margin-bottom: 1em;   
+}
+
+
+
+.skills img{
+    width: 18vw;
+}
+
+.skills{
+    padding-left: 30%;
+    
+}
+
+.portafolio-headings{
+    width: 100vw;
+    padding-top: 5em;
+    padding-left: 2em;
+}
+
+.portafolio-headings h2{
+    font-size: 2em;
+    color: #E0B1D0;
+}
+
+.portafolio .container{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    background-color: #613151;
+    border-radius: 15px;
+    margin: 1em;
+
+}
+
+.card-img,
+.card-img img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-size: 1.3em;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-links a{
+    color: #E0B1D0;
+    text-decoration: none;
+}
+
+.project-links i{
+    font-size: 1.5em;
+}
+
+.project-details{
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.project-details a{
+    text-decoration: none;
+    color: #552645;
+    text-transform: uppercase;
+}
+
+.portafolio{
+    width: 100vw;
+    background-color: #552645; 
+    color: #ad508e;
+ }
+
+.container-contact img{
+    width: 450px;
+    bottom: 0;
+}
+
+.container-contact{
+    padding: 3em;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contact-heading{
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.contact-heading h2{
+    font-size: 2em;
+
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form-control input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #552645;
+}
+
+.form-control textarea{
+    height: 150px;
+    background: none;
+    padding: 1.5em;
+    border: 1px solid #552645;
+}
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form{
+    margin: 0 auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #552645;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-content h2{
+    font-size: 3em;
+}
+
+.footer-content h5{
+    font-size: 1.5em;
+}
+
+.social-network{
+    display: flex;
+   margin: 1em;
+
+}
+
+.social-network i{
+   font-size: 3em;
+   
+}
+
+@media screen and (max-width: 600px){
+    
+    .main{
+        margin-right: 7em;
+        width: 80vw;
+        height: 80vh;
+        padding-top: 8em;
+        padding-right: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar{
+
+        padding-right: 4em;
+        width:100%;
+    }
+    .menu a{
+        
+        font-size: .8em;
+        padding: 1px 10px;
+        
+    }
+
+    .info-content{
+        padding: 1em;
+        padding-left: 7em;
+        width: 100%;
+    }
+    
+    .info-content p,
+    .about-info p{
+        
+        text-align: center;
+        font-size: 1em;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .main img {
+        width: 350px;
+        height: 420px;
+        margin-top: 2em;
+        margin-right: 5em;
+    }
+
+    .wrapper{
+        width: 100%;
+        height: 1100px;
+        
+     }
+
+     .about{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    
+    }
+
+    .about img{
+        padding: 1em;
+        width: 80%;
+        
+    
+    }
+
+    .skills img{
+        width: 100%;
+    }
+    
+    .skills{
+        padding: 1em;
+        
+    }
+    
+    .portafolio .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    
+    .card{
+        width: 70%;
+        width: 70%;
+        background-color: #613151;
+        border-radius: 15px;
+        margin: 1em;
+        margin-left: 3em;
+    }
+
+    .portafolio {
+        width: 100%;
+        height: 2100px;
+       
+    }
+
+    .container-contact {
+        padding: 1em;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-contact img {
+        width: 40%;
+        height: 40%;
+        bottom: 0;
+    }
+    
+    .contact-form {
+        padding: 1em;
+        
+       
+    }
+
+    .footer-content h2{
+        font-size: 1.5em;
+    }
+    
+    .footer-content h5{
+        font-size: 1em;
+    }
+
+    .footer{
+  
+        width: 100vw;
+        height: 150px;
+    }
+
+    .social-network i{
+        font-size: 2em;
+        
+     }
+}
