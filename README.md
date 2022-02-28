@@ -1,3 +1,6 @@
+![Folio](https://user-images.githubusercontent.com/93012367/156060342-f6c3abcd-f1dd-476b-919a-fa8cd51df16c.jpg)
+
+
 # <h1 align="center">Hola 👋, Soy Eunices Trujillo</h1>
 
 <h3 align="center">Autodidacta developer from Santiago, Chile</h3>
